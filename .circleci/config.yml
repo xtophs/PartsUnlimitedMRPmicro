@@ -193,7 +193,7 @@ jobs:
       - checkout
       - run: *run-buildjava 
       - run: *run-javatestresults
-
+      #
       # Optionally Save and store jar build artifacts
       #- run: |
       #    cp $GIT_FOLDER/build/libs/*.jar /tmp/artifacts
